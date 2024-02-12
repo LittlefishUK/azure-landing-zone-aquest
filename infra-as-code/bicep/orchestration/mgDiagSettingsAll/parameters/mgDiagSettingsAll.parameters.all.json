@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "parTopLevelManagementGroupPrefix": {
+      "value": "aqu"
+    },
+    "parTopLevelManagementGroupSuffix": {
+      "value": ""
+    },
+    "parLandingZoneMgAlzDefaultsEnable": {
+      "value": false
+    },
+    "parPlatformMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parLandingZoneMgConfidentialEnable": {
+      "value": false
+    },
+    "parLogAnalyticsWorkspaceResourceId": { 
+      "value": "/subscriptions/2db0319f-992c-4bca-9faf-1719acacf104/resourceGroups/rg-p-sentinel-uks/providers/Microsoft.OperationalInsights/workspaces/log-p-sentinel-uks-aqu"   
+    },
+    "parDiagnosticSettingsName": {
+      "value": "toLa"
+    },    
+    "parLandingZoneMgChildren": { 
+      "value": []
+    },
+    "parPlatformMgChildren": {
+      "value": []
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    }
+  }
+}

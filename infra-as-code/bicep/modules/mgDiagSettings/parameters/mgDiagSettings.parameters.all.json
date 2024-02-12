@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "parLogAnalyticsWorkspaceResourceId": {  //update res id
+      "value": "/subscriptions/febe3a1a-e544-43f3-a7ef-481e90d84883/resourceGroups/rg-p-sentinel-ukw/providers/Microsoft.OperationalInsights/workspaces/log-p-sentinel-uks-chr"
+    },
+    "parDiagnosticSettingsName": {
+      "value": "toLa"
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    }
+  }
+}
